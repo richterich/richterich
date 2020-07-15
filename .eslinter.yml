@@ -1,0 +1,36 @@
+root: true
+extends: eslint:recommended
+rules:
+    indent:
+        - error
+        - 4
+    linebreak-style:
+        - error
+        - unix
+    quotes:
+        - error
+        - single
+    semi:
+        - error
+        - always
+    comma-dangle:
+        - error
+        - arrays: never
+          objects: never
+          imports: never
+          exports: never
+          functions: never
+    no-empty: warn
+    no-console: off
+parserOptions:
+    ecmaVersion: 6
+    sourceType: module
+    ecmaFeatures:
+        modules: true
+        experimentalObjectRestSpread: true
+env:
+    node: true
+globals:
+    Symbol: readonly
+    Atomics: readonly
+    SharedArrayBuffer: readonly

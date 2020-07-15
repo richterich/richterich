@@ -1,0 +1,20 @@
+{
+    "name": "richterich.dev",
+    "version": "1.0.0",
+    "private": true,
+    "description": "Alexander Richterich's web page",
+    "author": "Alexander Richterich <richterich@yahoo.com>",
+    "license": "ISC",
+    "main": "./src/index.mjs",
+    "scripts": {
+        "start": "node --experimental-modules ./src/index.mjs",
+        "debug": "node --inspect --experimental-modules ./src/index.mjs"
+    },
+    "dependencies": {
+        "express": "^4.16.1"
+    },
+    "devDependencies": {
+        "eslint": "^7.1.0",
+        "prettier": "^2.0.5"
+    }
+}
