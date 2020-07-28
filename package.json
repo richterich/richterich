@@ -11,7 +11,8 @@
         "debug": "node --inspect --experimental-modules ./src/index.mjs"
     },
     "dependencies": {
-        "express": "^4.16.1"
+        "express": "^4.16.1",
+        "pug": "^3.0.0"
     },
     "devDependencies": {
         "eslint": "^7.1.0",
