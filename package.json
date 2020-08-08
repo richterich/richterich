@@ -2,7 +2,7 @@
     "name": "richterich.dev",
     "version": "1.0.0",
     "private": true,
-    "description": "Alexander Richterich's web page",
+    "description": "Alexander Richterich's web site",
     "author": "Alexander Richterich <richterich@yahoo.com>",
     "license": "ISC",
     "main": "./src/index.mjs",
