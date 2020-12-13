@@ -1,7 +1,7 @@
 ### Hi there 👋
-- ✨ I’m Junior Application Programmer at [ISD](http://www.isd.dp.ua)
-- 🔭 I’m currently reading the book `The C programming language`
-- 🌱 I’m currently learning `C language`
+- ✨ I’m Staff Application Programmer at [ISD](http://www.isd.dp.ua)
+- 🔭 I’m currently working on a `Web project`
+- 🌱 I’m currently learning `JavaScript & TypeScript`
 - ⚡ Fun fact: `The ninja turtles can't love pizza! Because they are not exist`
 
 <!--
