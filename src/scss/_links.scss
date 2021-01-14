@@ -1,0 +1,61 @@
+
+a:link {
+    color: #fffffe;
+    text-decoration: none;
+}
+
+a.text-link:link {
+    color: #5d84d1;
+}
+
+a:visited {
+    color: #677bc4;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a#github:hover {
+    color: #f3ddb0;
+}
+
+a#twitter:hover {
+    color: #22a1f2;
+}
+
+a#linkedIn:hover {
+    color: #1777b5;
+}
+
+a#instagram:hover {
+    color: #ce2c87;
+}
+
+a#facebook:hover {
+    color: #1771e4;
+}
+
+a#email:hover {
+    color: #fffffe;
+}
+
+a#youtube:hover {
+    color: #fa1200;
+}
+
+a#twitch:hover {
+    color: #9147ff;
+}
+
+a#blog:hover {
+    color: #3eb281;
+}
+
+a#company:hover {
+    color: #fffffe;
+}
+
+a:active {
+    color: #677bc4;
+}

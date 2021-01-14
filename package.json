@@ -2,19 +2,21 @@
     "name": "richterich.dev",
     "version": "1.0.0",
     "private": true,
-    "description": "Alexander Richterich's web site",
+    "description": "Alexander Richterich's web page",
     "author": "Alexander Richterich <richterich@yahoo.com>",
     "license": "ISC",
-    "main": "./src/index.mjs",
+    "main": "./src/index.html",
     "scripts": {
-        "start": "node --experimental-modules ./src/index.mjs",
-        "debug": "node --inspect --experimental-modules ./src/index.mjs"
-    },
-    "dependencies": {
-        "express": "^4.16.1",
-        "pug": "^3.0.0"
+        "test": "echo \"Error: no test specified\" && exit 1"
     },
     "devDependencies": {
+        "gulp": "^4.0.2",
+        "gulp-data": "^1.3.1",
+        "gulp-imagemin": "^7.1.0",
+        "gulp-pug": "^4.0.1",
+        "gulp-rename": "^2.0.0",
+        "gulp-rimraf": "^1.0.0",
+        "gulp-sass": "^4.1.0",
         "eslint": "^7.1.0",
         "prettier": "^2.0.5"
     }

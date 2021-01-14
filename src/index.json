@@ -1,0 +1,46 @@
+{
+    "title": "Alexander Richterich",
+    "whoami": "Who am I?",
+    "fullName": "Alexander Richterich",
+    "position": "Application Programmer",
+    "links": [
+        {
+            "id": "github",
+            "url": "https://github.com/richterich",
+            "name": "#github"
+        },
+        {
+            "id": "twitter",
+            "url": "https://twitter.com/_richterich",
+            "name": "#twitter"
+        },
+        {
+            "id": "email",
+            "url": "mailto:richterich@yahoo.com",
+            "name": "#email"
+        },
+        {
+            "id": "twitch",
+            "url": "https://www.twitch.tv/richterich",
+            "name": "#twitch"
+        },
+        {
+            "id": "instagram",
+            "url": "https://www.instagram.com/rihtarich.alexandr",
+            "name": "#instagram"
+        },
+        {
+            "id": "linkedIn",
+            "url": "https://www.linkedin.com/in/alexandr-rihtarich-a26314105?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BluOr%2BjjaR3e25vLb9VUYvA%3D%3D",
+            "name": "#linkedIn"
+        },
+        {
+            "id": "facebook",
+            "url": "https://www.facebook.com/alexandr.rihtarich",
+            "name": "#facebook"
+        }
+    ],
+    "whatdoido": "What do I do?",
+    "mainText": "Hello! My name is Alexander and I’m Staff Application Programmer at <a class=\"text-link\" href=\"http://www.isd.dp.ua\"><strong>ISD</strong></a>. I also have been studying English for one year, I started with absolutely zero level. I like to play video games actually some shooter games in my free time.",
+    "copyright": "© 2020 Alexander Richterich."
+}
