@@ -1,7 +1,7 @@
 'use strict';
 
 const { series, parallel, watch, src, dest } = require('gulp');
-const gulp_sass = require('gulp-sass');
+const gulp_sass = require('gulp-sass')(require('sass'));
 const gulp_pug = require('gulp-pug');
 const gulp_data = require('gulp-data');
 const clean = require('gulp-rimraf');
