@@ -119,6 +119,11 @@ function copyFavicon() {
         .pipe(dest(paths.build.root_PATH));
 }
 
+function copyNojekyll() {
+    return src('.nojekyll')
+        .pipe(dest(paths.build.root_PATH));
+}
+
 function doWatch(params) {
     watch([paths.watch.scss], buildCSS(paths.build.css_PATH));
     watch([paths.watch.templates], buildHTML);
@@ -128,5 +133,5 @@ function doWatch(params) {
 
 exports.clean = doClean;
 exports.watch = doWatch;
-exports.build = series(doClean, parallel(copyFavicon, buildImages, buildCSS, buildHTML));
+exports.build = series(doClean, parallel(copyNojekyll, copyFavicon, buildImages, buildCSS, buildHTML));
 exports.pack = series(doClean, parallel(copyFavicon, packImages, packCSS, packOptions, packTemplates));
