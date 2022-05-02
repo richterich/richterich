@@ -1,0 +1,43 @@
+{
+    "dev": {
+        "dest": "build",
+        "html": "build/**/*.html"
+    },
+    "production": {
+        "dest": "dist",
+        "html": "dist/**/*.html"
+    },
+    "favs": {
+        "src": "src/favicons/**/*.{ico,svg}",
+        "dest": "favicons/"
+    },
+    "images": {
+        "src": "src/assets/**/*.{gif,jpg,jpeg,png,svg,webp}",
+        "dest": "static/img/"
+    },
+    "css": {
+        "src": "src/style/**/*.{css,scss}",
+        "ignore": "!src/style/**/_*.{css,scss}",
+        "dest": "static/style/"
+    },
+    "html": {
+        "src": "src/html/**/*.html",
+        "ignore": "!src/html/**/_*.html",
+        "dest": "."
+    },
+    "ghpages": {
+        "src": [
+            ".nojekyll",
+            "CNAME"
+        ],
+        "dest": "."
+    },
+    "watch": {
+        "images": "src/assets/**/*.{gif,jpg,jpeg,png,svg,webp}",
+        "copy": [
+            "src/favicons/**/*.{ico,svg}"
+        ],
+        "css": "src/style/**/*.{css,scss}",
+        "html": "src/html/**/*.html"
+    }
+}
