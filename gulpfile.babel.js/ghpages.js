@@ -6,7 +6,11 @@ import ghpages from 'gh-pages';
  */
 const ghOptions = {
     dotfiles: true,
-    silent: true
+    silent: true,
+    user: {
+        name: 'github-actions-bot',
+        email: 'support+actions@github.com'
+    }
 };
 /**
  * @param {Undertaker.TaskFunction} done 
