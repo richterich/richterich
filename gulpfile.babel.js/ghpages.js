@@ -14,8 +14,7 @@ function ghpagesTask(done) {
     const prod = env['NODE_ENV'] === 'production';
     const dir = prod ? production.dest : dev.dest;
     ghpages.publish(dir, ghOptions, (err) => {
-        if (err) console.error(err);
-        done();
+        done(err);
     });
 }
 
