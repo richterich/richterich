@@ -5,7 +5,8 @@ import ghpages from 'gh-pages';
  * Publish options
  */
 const ghOptions = {
-    dotfiles: true
+    dotfiles: true,
+    silent: true
 };
 /**
  * @param {Undertaker.TaskFunction} done 
