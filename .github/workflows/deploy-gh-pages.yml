@@ -22,7 +22,6 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
 
-    - name: Install Dependencies
+    - name: Install Dependencies & Commit to gh-pages branch
     - run: npm ci
-    - name: Deploy (Commit to gh-pages branch)
     - run: npm run deploy
