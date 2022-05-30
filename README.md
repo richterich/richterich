@@ -47,8 +47,8 @@ I'm Alexander, software engineer from 🇺🇦 Zaporizhzhya, Ukraine
 
 ## 🌟 GitHub Stats
 
-![richterich's top langs](https://github-readme-stats.vercel.app/api/top-langs/?username=richterich&bg_color=00000000&title_color=c9d1d9&text_color=c9d1d9&hide_border=false&langs_count=4&layout=compact&card_width=280)
-![richterich's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=richterich&bg_color=00000000&title_color=c9d1d9&text_color=c9d1d9&hide_border=false&custom_title=Last%207%20Days&layout=compact)
+![richterich's top langs](https://github-readme-stats.vercel.app/api/top-langs/?username=richterich&bg_color=00000000&title_color=c9d1d9&text_color=c9d1d9&hide_border=true&langs_count=4&layout=compact&card_width=280)
+![richterich's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=richterich&bg_color=00000000&title_color=c9d1d9&text_color=c9d1d9&hide_border=true&custom_title=Last%207%20Days&layout=compact)
 
 ![footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=30&height=64&section=footer)
 
