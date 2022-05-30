@@ -32,7 +32,7 @@ I'm Alexander, software engineer from 🇺🇦 Zaporizhzhya, Ukraine
 ![richterich's GitHub](https://img.shields.io/badge/github%20actions-%232088FF.svg?&style=for-the-badge&logo=githubactions&logoColor=white)
 ![richterich's Website](https://img.shields.io/badge/digital%20ocean-%230080FF.svg?&style=for-the-badge&logo=digitalocean&logoColor=white)
 ![richterich's Project Tools](https://img.shields.io/badge/gulp-%23CF4647.svg?&style=for-the-badge&logo=gulp&logoColor=white)
-![richterich's Project Tools](https://img.shields.io/badge/webpack-%238DD6F9.svg?&style=for-the-badge&logo=webpack&logoColor=black)\
+![richterich's Project Tools](https://img.shields.io/badge/webpack-%238DD6F9.svg?&style=for-the-badge&logo=webpack&logoColor=black)
 ![richterich's Project Framework](https://img.shields.io/badge/phaser%20js-%23F7DF1E.svg?&style=for-the-badge&logo=javascript&logoColor=black)
 ![richterich's Tech Stack](https://img.shields.io/badge/html-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white)
 ![richterich's Tech Stack](https://img.shields.io/badge/css-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white)
@@ -47,8 +47,8 @@ I'm Alexander, software engineer from 🇺🇦 Zaporizhzhya, Ukraine
 
 ## 🌟 GitHub Stats
 
-![richterich's top langs](https://github-readme-stats.vercel.app/api/top-langs/?username=richterich&bg_color=00000000&title_color=c9d1d9&text_color=c9d1d9&hide_border=true&langs_count=4&layout=compact)
-![richterich's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=richterich&bg_color=00000000&title_color=c9d1d9&text_color=c9d1d9&hide_border=true&custom_title=Last%207%20Days&layout=compact)
+![richterich's top langs](https://github-readme-stats.vercel.app/api/top-langs/?username=richterich&bg_color=00000000&title_color=c9d1d9&text_color=c9d1d9&hide_border=false&langs_count=4&layout=compact&card_width=280)
+![richterich's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=richterich&bg_color=00000000&title_color=c9d1d9&text_color=c9d1d9&hide_border=false&custom_title=Last%207%20Days&layout=compact)
 
 ![footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=30&height=64&section=footer)
 
