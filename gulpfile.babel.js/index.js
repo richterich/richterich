@@ -3,7 +3,7 @@ import argvTask from './argv';
 import ghpagesTask from './ghpages.js';
 import cleanTask from "./clean";
 import copyTask from './copy';
-import imagesTask from './images';
+import { minifyTask, webpTask } from './images';
 import htmlTask from './html';
 import cssTask from './css';
 import validateTask from './validate';
@@ -20,7 +20,7 @@ copyGh.description = 'Copy gh-pages file to the root folder';
 const devTask = done => series('build', 'watch')(done);
 devTask.description = 'Run development environment (build poject, start server, watch files)';
 
-const parallelList = [htmlTask, cssTask, imagesTask, copyFavs];
+const parallelList = [htmlTask, cssTask, minifyTask, webpTask, copyFavs];
 
 const buildTask = series(argvTask, parallel(parallelList), validateTask);
 buildTask.description = 'Build entire project';
@@ -41,7 +41,8 @@ export { ghpagesTask as ghpages };
 export { cleanTask as clean };
 export { copyFavs as favs };
 export { copyGh as copygh };
-export { imagesTask as images };
+export { minifyTask as images };
+export { webpTask as webp };
 export { htmlTask as html };
 export { cssTask as css };
 export { validateTask as validate };

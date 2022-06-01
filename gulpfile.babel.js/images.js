@@ -3,6 +3,7 @@ import { images, dev, production } from './config';
 import { src, dest } from 'gulp';
 import plumber from 'gulp-plumber';
 import notify from 'gulp-notify';
+import webp from 'gulp-webp';
 import imagemin, { gifsicle, mozjpeg, optipng, svgo } from 'gulp-imagemin';
 /**
  * Notification options
@@ -18,6 +19,13 @@ const imageminOptions = {
     verbose: true,
     silent: false
 };
+/**
+ * WebP options
+ */
+const webpOptions = {
+    quality: 40,
+    method: 6
+}
 /**
  * Register plugins
  */
@@ -41,16 +49,30 @@ const destOptions = {
 /**
  * Minify PNG, JPG, JPEG, GIF, SVG images
  */
-function imagesTask() {
+function minifyTask() {
     const prod = env['NODE_ENV'] === 'production';
     destOptions.cwd = prod ? production.dest : dev.dest;
-    return src(images.src)
+    return src(images.srcMinify)
         .pipe(plumber(notify.onError(notifyOptions)))
         .pipe(imagemin(plugins, imageminOptions))
         .pipe(dest(images.dest, destOptions));
 }
 
-imagesTask.displayName = 'images';
-imagesTask.description = 'Process images PNG, JPG, JPEG, GIF, SVG with imagemin';
+minifyTask.displayName = 'images';
+minifyTask.description = 'Minify images PNG, JPG, JPEG, GIF, SVG with imagemin';
+/**
+ * Convert PNG, JPG, JPEG, GIF images to WebP format
+ */
+function webpTask() {
+    const prod = env['NODE_ENV'] === 'production';
+    destOptions.cwd = prod ? production.dest : dev.dest;
+    return src(images.srcConvert)
+        .pipe(plumber(notify.onError(notifyOptions)))
+        .pipe(webp(webpOptions))
+        .pipe(dest(images.dest, destOptions));
+}
 
-export default imagesTask;
+webpTask.displayName = 'webp';
+webpTask.description = 'Convert PNG, JPG, JPEG, GIF images to WebP format';
+
+export { minifyTask, webpTask };

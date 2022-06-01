@@ -12,7 +12,8 @@
         "dest": "favicons/"
     },
     "images": {
-        "src": "src/assets/**/*.{gif,jpg,jpeg,png,svg}",
+        "srcMinify": "src/assets/**/*.{gif,jpg,jpeg,png,svg}",
+        "srcConvert": "src/assets/**/*.{gif,jpg,jpeg,png}",
         "dest": "static/img/"
     },
     "css": {
