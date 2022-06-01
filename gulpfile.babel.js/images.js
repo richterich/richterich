@@ -3,13 +3,12 @@ import { images, dev, production } from './config';
 import { src, dest } from 'gulp';
 import plumber from 'gulp-plumber';
 import notify from 'gulp-notify';
-import webp from 'imagemin-webp';
 import imagemin, { gifsicle, mozjpeg, optipng, svgo } from 'gulp-imagemin';
 /**
  * Notification options
  */
 const notifyOptions = {
-    title: 'HTML',
+    title: 'IMAGES',
     message: 'Error: <%= error.message %>'
 };
 /**
@@ -24,15 +23,14 @@ const imageminOptions = {
  */
 const plugins = [
     gifsicle({ interlaced: true }),
-    mozjpeg({ quality: 70, progressive: true }),
+    mozjpeg({ quality: 40, progressive: true }),
     optipng({ optimizationLevel: 5 }),
     svgo({
         plugins: [
             { removeViewBox: true },
             { cleanupIDs: false }
         ]
-    }),
-    webp({ quality: 70, method: 3 })
+    })
 ];
 /**
  * Set default destination root folder
@@ -41,7 +39,7 @@ const destOptions = {
     cwd: dev.dest
 };
 /**
- * Minify PNG, JPG, JPEG, GIF, SVG and WEBP images
+ * Minify PNG, JPG, JPEG, GIF, SVG images
  */
 function imagesTask() {
     const prod = env['NODE_ENV'] === 'production';
@@ -53,6 +51,6 @@ function imagesTask() {
 }
 
 imagesTask.displayName = 'images';
-imagesTask.description = 'Process images PNG, JPG, JPEG, GIF, SVG and WEBP with imagemin';
+imagesTask.description = 'Process images PNG, JPG, JPEG, GIF, SVG with imagemin';
 
 export default imagesTask;
