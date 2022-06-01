@@ -13,7 +13,7 @@ I'm Alexander, software engineer from 🇺🇦 Zaporizhzhya, Ukraine
 
 ---
 
-## 🫂 Connect With Me
+## 🔔 You can find me on
 
 [![richterich's Twitter](https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/richterich_)
 [![richterich's GitHub](https://img.shields.io/badge/github-%2312100E.svg?&style=for-the-badge&logo=github&logoColor=white)](https://github.com/richterich)
