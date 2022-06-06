@@ -26,7 +26,7 @@ function watchTask() {
     watch(watchDir.html, series('html', 'validate'));
     watch(watchDir.css, series('css'));
     watch(watchDir.images, series('images'));
-    watch(watchDir.copy, series('copy'));
+    watch(watchDir.favs, series('favs'));
     time = new Date().toTimeString().substring(0, 8);
     console.info(`[\x1b[90m${time}\x1b[0m] \x1b[36m%s\x1b[0m`, 'Start watching the files');
 }

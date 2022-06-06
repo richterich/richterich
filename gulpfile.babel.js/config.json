@@ -35,7 +35,7 @@
     },
     "watch": {
         "images": "src/assets/**/*.{gif,jpg,jpeg,png,svg}",
-        "copy": [
+        "favs": [
             "src/favicons/**/*.{ico,svg}"
         ],
         "css": "src/style/**/*.{css,scss}",
