@@ -8,10 +8,13 @@ import htmlTask from './html';
 import cssTask from './css';
 import validateTask from './validate';
 import watchTask from './watch';
-import { favs, ghpages } from './config';
+import { favs, fonts, ghpages } from './config';
 
 const copyFavs = () => copyTask(favs.src, favs.dest);
 copyFavs.description = 'Copy favicons';
+
+const copyFonts = () => copyTask(fonts.src, fonts.dest);
+copyFonts.description = 'Copy fonts';
 
 const copyGh = () => copyTask(ghpages.src, ghpages.dest);
 copyGh.displayName = 'copy-gh';
@@ -20,7 +23,7 @@ copyGh.description = 'Copy gh-pages file to the root folder';
 const devTask = done => series('build', 'watch')(done);
 devTask.description = 'Run development environment (build poject, start server, watch files)';
 
-const parallelList = [htmlTask, cssTask, minifyTask, webpTask, copyFavs];
+const parallelList = [htmlTask, cssTask, minifyTask, webpTask, copyFavs, copyFonts];
 
 const buildTask = series(argvTask, parallel(parallelList), validateTask);
 buildTask.description = 'Build entire project';
@@ -40,6 +43,7 @@ export { deployTask as deploy };
 export { ghpagesTask as ghpages };
 export { cleanTask as clean };
 export { copyFavs as favs };
+export { copyFonts as fonts };
 export { copyGh as copygh };
 export { minifyTask as images };
 export { webpTask as webp };

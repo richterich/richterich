@@ -21,6 +21,10 @@
         "ignore": "!src/style/**/_*.{css,scss}",
         "dest": "static/style/"
     },
+    "fonts": {
+        "src": "src/fonts/**/*.{eot,svg,ttf,woff,woff2}",
+        "dest": "static/fonts/"
+    },
     "html": {
         "src": "src/html/**/*.html",
         "ignore": "!src/html/**/_*.html",
@@ -39,6 +43,7 @@
             "src/favicons/**/*.{ico,svg}"
         ],
         "css": "src/style/**/*.{css,scss}",
+        "fonts": "src/fonts/**/*.{eot,svg,ttf,woff,woff2}",
         "html": "src/html/**/*.html"
     }
 }
