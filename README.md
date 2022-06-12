@@ -1,4 +1,8 @@
-![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=30&height=192&section=header&text=👋%20Hello!%20Nice%20to%20see%20you&fontSize=24&fontColor=c9d1d9)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=30&height=192&section=header&text=👋%20Hello!%20Nice%20to%20see%20you&fontSize=24&fontColor=cff9ee">
+  <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=30&height=192&section=header&text=%F0%9F%91%8B%20Hello!%20Nice%20to%20see%20you&fontSize=24&fontColor=494a4d">
+  <img alt="header" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=30&height=192&section=header&text=%F0%9F%91%8B%20Hello!%20Nice%20to%20see%20you&fontSize=24">
+</picture>
 
 Welcome to my page!\
 I'm Alexander, software engineer from 🇺🇦 Zaporizhzhya, Ukraine
@@ -47,16 +51,15 @@ I'm Alexander, software engineer from 🇺🇦 Zaporizhzhya, Ukraine
 
 ## 🌟 GitHub Stats
 
-![richterich's top langs](https://github-readme-stats.vercel.app/api/top-langs/?username=richterich&bg_color=00000000&title_color=c9d1d9&text_color=c9d1d9&hide_border=true&langs_count=6&layout=compact&card_width=280)
-![richterich's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=richterich&bg_color=00000000&title_color=c9d1d9&text_color=c9d1d9&hide_border=true&langs_count=6&custom_title=Last%207%20Days&layout=compact)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=richterich&bg_color=00000000&title_color=c9d1d9&text_color=c9d1d9&hide_border=true&langs_count=6&layout=compact&card_width=280">
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=richterich&bg_color=00000000&title_color=24292f&text_color=24292f&hide_border=true&langs_count=6&layout=compact&card_width=280">
+  <img alt="richterich's top langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=richterich&bg_color=00000000&title_color=24292f&text_color=24292f&hide_border=true&langs_count=6&layout=compact&card_width=280">
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/wakatime?username=richterich&bg_color=00000000&title_color=c9d1d9&text_color=c9d1d9&hide_border=true&langs_count=6&custom_title=Last%207%20Days&layout=compact">
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/wakatime?username=richterich&bg_color=00000000&title_color=24292f&text_color=24292f&hide_border=true&langs_count=6&custom_title=Last%207%20Days&layout=compact">
+  <img alt="richterich's wakatime stats" src="https://github-readme-stats.vercel.app/api/wakatime?username=richterich&bg_color=00000000&title_color=24292f&text_color=24292f&hide_border=true&langs_count=6&custom_title=Last%207%20Days&layout=compact">
+</picture>
 
 ![footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=30&height=64&section=footer)
-
-<!--
-
-TODO: For light mode
-
-![richterich's top langs](https://github-readme-stats.vercel.app/api/top-langs/?username=richterich&bg_color=00000000&title_color=24292f&text_color=24292f&hide_border=true&langs_count=4&layout=compact)
-![richterich's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=richterich&bg_color=00000000&title_color=24292f&text_color=24292f&hide_border=true&custom_title=Last%207%20Days&layout=compact)
-
--->
